@@ -29,6 +29,7 @@ export const RouterComponents = () => {
 					element={<LoveCat catHeart={catHeart} deleteCat={deleteCatHandler} />}
 				/>
 				<Route path='/' element={<Main catHeart={catHeartHandler} />} />
+				<Route path='*' element={<h1>Нет такой Страницы : 404</h1>} />
 			</Routes>
 		</BrowserRouter>
 	);
