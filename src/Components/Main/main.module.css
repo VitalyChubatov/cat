@@ -12,6 +12,15 @@
 	scale: 1.1;
 }
 
+.catHref {
+	color: brown;
+}
+
+.catHref:hover {
+	transition: all 0.5s;
+	color: red;
+}
+
 .cart_cat {
 	display: flex;
 	justify-content: center;

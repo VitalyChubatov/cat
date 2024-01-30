@@ -1,6 +1,7 @@
 .header {
 	width: 100%;
-	background-color: aqua;
+	background: #2196f3;
+
 	display: flex;
 }
 
